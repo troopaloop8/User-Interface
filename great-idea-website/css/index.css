@@ -169,12 +169,13 @@ header nav {
 .title-text-box p {
 	line-height: 18px;
 	letter-spacing: 1px;
+	
 }
 
 .left-box {
 	display: inline-block;
 	float: left;
-	width: 50%;
+	width: 410px;
 	height: 400px;
 	margin: 0 auto;
 }
@@ -194,7 +195,7 @@ header nav {
 	border: 1px solid black;
 	text-align: center;
 	transition: background 1s;
-	margin: 0 30%;
+	margin: 0 135.5px;
 }
 
 
@@ -213,13 +214,16 @@ header nav {
 .right-box {
 	display: inline-block;
 	float: right;
-	width: 50%;
+	width: 410;
 	height: 400px;
 	padding: 50px 0;
 
 }
 
-
+.features-section {
+	width: 90%;
+	margin: 0 auto;
+}
 /* sections 2 columns in one row */
 
 .row-block {
@@ -288,7 +292,8 @@ header nav {
 }
 
 footer {
-	margin: 0 0 50px;
+	margin: 0 auto 50px;
+	width: 90%;
 }
 
 footer nav address {
