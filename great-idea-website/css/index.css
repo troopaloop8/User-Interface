@@ -28,8 +28,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
 	line-height: 1;
+	height: 100%;
+	margin: auto;
+	min-width: 820px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +72,241 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* HEADER // NAV BAR CLASSES */
+
+
+/* 
+.container-box-header {
+	margin: 5% 15%;
+	box-sizing: border-box;
+	*/
+header nav {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1140px;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: auto;
+	margin: 3.7% 0 0;
+	float: right;
+	
+}
+
+.nav-bar {
+	border: 2px solid black;
+	margin: 1%;
+	padding: 1%;
+	width: 100%;
+	float: right;
+}
+
+.nav-bar a {
+	display: inline-block;
+	border: 2px solid green;
+	margin: 2%;
+	width: 9%;
+}
+
+.nav-bar img {
+	display: inline-block;
+	border: 2px solid green;
+	margin: 2%;
+	width: 14%;
+	vertical-align: baseline;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 5%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 2.5em;
+    
+}
+
+.main-nav li:first-of-type {
+    display: inline-block;
+    margin-left: 0;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid silver;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s
+}
+
+.title-text-box {
+	width: 90%;
+	max-width: 1140px;
+	
+	margin: 0 auto;
+}
+
+.title-text-box p {
+	line-height: 18px;
+	letter-spacing: 1px;
+	
+}
+
+.left-box {
+	display: inline-block;
+	float: left;
+	width: 410px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.left-box h1 {
+	font-size: 4.7rem;
+	text-align: center;
+	padding: 125px 10px 10px 0;
+}
+
+.get-started-button {
+	display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	text-align: center;
+	transition: background 1s;
+	margin: 0 135.5px;
+}
+
+
+
+
+.get-started-button:hover {
+	color: white;
+	background: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+.right-box {
+	display: inline-block;
+	float: right;
+	width: 410;
+	height: 400px;
+	padding: 50px 0;
+
+}
+
+.features-section {
+	width: 90%;
+	margin: 0 auto;
+}
+/* sections 2 columns in one row */
+
+.row-block {
+	display: inline-block;
+	margin: 50px 0;
+	
+}
+
+.line-divide {
+	margin-bottom: 30px;
+	width: auto;
+}
+
+.left-block, 
+.right-block {
+	display: inline-block;
+	width: 48%;
+	margin: 0 1%;
+	align-content: center;
+	
+}
+
+.left-block {
+	float: left;
+}
+
+.right-block {
+	float: right;
+}
+
+.row-block h2 {
+	font-size: 125%;
+}
+
+.middle-img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.three-row {
+	margin: 10px 0 30px;
+}
+
+.three-row h2 {
+	font-size: 115%;
+}
+
+
+
+.one-of-three-block {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+}
+
+.two-of-three-block {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+}
+
+.three-of-three-block {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+}
+
+footer {
+	margin: 0 auto 50px;
+	width: 90%;
+}
+
+footer nav address {
+	font-style: italic;
+	font-size: 95%;
+}
+
+footer nav p {
+	margin: 15px 0;
+	font-size: 97%;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 20px;
+}
